@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  background-color: #10181b;
+  color:#fff;
+
+}
+
+
+.ProductsTable__Container{
+   padding:20px;
+   color:#10181b;
+   padding:20px;
+   color:#fff;
+   font-size:18px;
+   margin:auto;
+   height:60%;
+
+}
+.ProductFormCard__Container{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    
+    width:100%;
+}
+.line{
+  margin-top: 40px;
+  border:2px solid gray;
+}
+.product-card{
+  border-radius: 10px;
+  padding:10px;
+  background: #101339;
+  opacity: 0.7;
+
+}
+
+.card-body{
+    width: 32%;
+    margin:25px;
+    border:2px solid transparent;
+    background:#080717;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px  3px #101339;;
+    height:100%;
+
+
+
+
+
+}
+.form-field{
+    outline: none;
+}
+.search-input{
+  width:140px;
+  height:30px;
+}
+.search-img{
+  height:23px;
+  width:30px;
+  background-color: #fff;
+}
+.search-button{
+  height:32px;
+  width:50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius:5px;
+}
+.all-products-heading{
+  font-size:26px;
+  font-weight:600;
+  margin-left:20px;
+}
